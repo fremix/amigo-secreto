@@ -160,3 +160,100 @@ ul {
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
+
+
+/* === Lista de amigos con botones de eliminar === */
+.name-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border: 1px solid var(--color-tertiary);
+    border-radius: 20px;
+    padding: 8px 16px;
+    margin: 8px 0;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    color: var(--color-text);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.name-item span {
+    flex: 1;
+    font-weight: 500;
+}
+
+/* Botón de eliminar (×) junto al nombre */
+.button-remove {
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+.button-remove:hover {
+    background-color: #e04a4a;
+}
+
+/* === Botón de reinicio === */
+.button-reset {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 10px 40px;
+    margin-top: 15px;
+    background-color: #718096;
+    color: var(--color-white);
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    border: 2px solid #000;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-reset img {
+    margin-right: 10px;
+    width: 20px;
+    height: auto;
+}
+
+.button-reset:hover {
+    background-color: #5a6779;
+}
+
+/* === Estilo opcional para el resultado con múltiples líneas === */
+.result-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px auto;
+    max-width: 500px;
+}
+
+.result-list li {
+    padding: 8px 0;
+    font-size: 18px;
+    color: var(--color-text);
+    text-align: center;
+}
+
+.result-list strong {
+    color: var(--color-primary);
+    font-weight: 700;
+}
