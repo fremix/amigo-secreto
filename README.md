@@ -13,4 +13,4 @@ Se coloca ícono en el botón reset
 
 Se implementan local storage (extra)
 
-Se agrega funcionalidad de eliminar a aigos
+Se agrega funcionalidad de eliminar a amigos
